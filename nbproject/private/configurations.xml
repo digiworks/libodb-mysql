@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="config">
+      </df>
+      <df name="m4">
+      </df>
+      <df name="odb">
+        <df name="mysql">
+          <df name="details">
+            <in>config.h</in>
+            <in>config.hxx</in>
+            <in>conversion.hxx</in>
+            <in>export.hxx</in>
+            <in>options.cxx</in>
+            <in>options.hxx</in>
+            <in>options.ixx</in>
+          </df>
+          <in>auto-handle.hxx</in>
+          <in>binding.hxx</in>
+          <in>config.h</in>
+          <in>connection-factory.cxx</in>
+          <in>connection-factory.hxx</in>
+          <in>connection.cxx</in>
+          <in>connection.hxx</in>
+          <in>connection.ixx</in>
+          <in>container-statements.hxx</in>
+          <in>container-statements.txx</in>
+          <in>database.cxx</in>
+          <in>database.hxx</in>
+          <in>database.ixx</in>
+          <in>enum.cxx</in>
+          <in>enum.hxx</in>
+          <in>error.cxx</in>
+          <in>error.hxx</in>
+          <in>exceptions.cxx</in>
+          <in>exceptions.hxx</in>
+          <in>forward.hxx</in>
+          <in>mysql-types.hxx</in>
+          <in>mysql.hxx</in>
+          <in>no-id-object-result.hxx</in>
+          <in>no-id-object-result.txx</in>
+          <in>no-id-object-statements.hxx</in>
+          <in>no-id-object-statements.txx</in>
+          <in>polymorphic-object-result.hxx</in>
+          <in>polymorphic-object-result.txx</in>
+          <in>polymorphic-object-statements.hxx</in>
+          <in>polymorphic-object-statements.txx</in>
+          <in>prepared-query.cxx</in>
+          <in>prepared-query.hxx</in>
+          <in>query-const-expr.cxx</in>
+          <in>query-dynamic.cxx</in>
+          <in>query-dynamic.hxx</in>
+          <in>query-dynamic.ixx</in>
+          <in>query-dynamic.txx</in>
+          <in>query.cxx</in>
+          <in>query.hxx</in>
+          <in>query.ixx</in>
+          <in>query.txx</in>
+          <in>section-statements.hxx</in>
+          <in>section-statements.txx</in>
+          <in>simple-object-result.hxx</in>
+          <in>simple-object-result.txx</in>
+          <in>simple-object-statements.cxx</in>
+          <in>simple-object-statements.hxx</in>
+          <in>simple-object-statements.ixx</in>
+          <in>simple-object-statements.txx</in>
+          <in>statement-cache.hxx</in>
+          <in>statement-cache.txx</in>
+          <in>statement.cxx</in>
+          <in>statement.hxx</in>
+          <in>statements-base.cxx</in>
+          <in>statements-base.hxx</in>
+          <in>tracer.cxx</in>
+          <in>tracer.hxx</in>
+          <in>traits-calls.hxx</in>
+          <in>traits.cxx</in>
+          <in>traits.hxx</in>
+          <in>transaction-impl.cxx</in>
+          <in>transaction-impl.hxx</in>
+          <in>transaction-impl.ixx</in>
+          <in>transaction.cxx</in>
+          <in>transaction.hxx</in>
+          <in>transaction.ixx</in>
+          <in>version.hxx</in>
+          <in>view-result.hxx</in>
+          <in>view-result.txx</in>
+          <in>view-statements.hxx</in>
+          <in>view-statements.txx</in>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
